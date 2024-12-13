@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjust Header and Content</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main Section */
+        section {
+            padding: 30px 0px; /* Reduced padding to move closer to the header */
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .features-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .feature-box {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .feature-box img {
+            max-width: 80px; /* Adjust size of the icon */
+            margin-bottom: 10px; /* Add spacing below the icon */
+        }
+
+        .feature-box h3 {
+            margin-bottom: 15px;
+        }
+
+        .feature-box p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Content Section -->
+    <section>
+        <h2>Power and Peace of Mind, Anytime, Anywhere</h2>
+        <div class="features-container">
+            <!-- Jump Start Dead Batteries -->
+            <div class="feature-box">
+                <img src="./jumper-cable-icon.png" alt="Jumper Cable Icon">
+                <h3>Jump Start Dead Batteries</h3>
+                <p>Never get stranded again. AirJump delivers the power you need to revive dead batteries in seconds, keeping you safe and moving.</p>
+            </div>
+
+            <!-- Instant Air for Flat Tyres -->
+            <div class="feature-box">
+                <h3>Instant Air for Flat Tyres</h3>
+                <p>Keeps your tyres road-ready. Inflate flat or underinflated tyres in minutes, ensuring a smooth and safe ride every time.</p>
+            </div>
+
+            <!-- Power up for all your electronics -->
+            <div class="feature-box">
+                <h3>Power up for all your electronics</h3>
+                <p>Equipped with two USB ports and a USB-C port, which can charge mobile phones, tablets, and other electronic devices.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
